@@ -1,0 +1,3 @@
+#!/bin/sh
+
+feh --bg-fill ~/Pictures/wallp/night-tokyo2.jpg --bg-fill ~/Pictures/wallp/night-tokyo.jpg

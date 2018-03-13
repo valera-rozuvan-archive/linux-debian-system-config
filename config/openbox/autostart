@@ -1,0 +1,9 @@
+# Programs that will run after Openbox has started
+
+(sleep 1s && xrandr --output DP-1 --left-of LVDS-1) &
+
+# Run wallpwaper setup script
+(sleep 2s && /home/valera/.config/openbox/scripts/set_bg) &
+
+# Run xcsreensaver
+(sleep 3 && xscreensaver -no-splash) &
