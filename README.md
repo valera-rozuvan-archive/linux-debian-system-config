@@ -15,3 +15,7 @@ Configs, bash scripts, etc. which are needed to setup a Debian Linux system from
 ## Useful software
 
 See the [list](useful_soft.md).
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
