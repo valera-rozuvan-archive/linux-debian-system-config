@@ -1,28 +1,43 @@
 # First time setup: part 1
 
-1. Install `aptitude`.
-
-2. Do the usual `update && upgrade`.
-
-3. Install `sudo`.
-
-4. Install system necessities:
+1. Install `aptitude`:
 
 ```
-firmware-linux-free firmware-brcm80211 firmware-iwlwifi
-alsa-firmware-loaders alsa-utils alsa-tools upower mesa-utils
+apt-get install aptitude
 ```
 
-5. Install X.org & friends:
+2. Do the usual `update && upgrade`:
 
 ```
-xorg xserver-xorg-core xserver-xorg-input-all xserver-xorg-video-all
-openbox openbox-menu obconf
-feh gmrun menu terminator
-wpasupplicant
-firefox-esr
-xscreensaver xscreensaver-*
-git
+aptitude update
+aptitude upgrade
 ```
 
-6. Reboot the system.
+3. Install `sudo`:
+
+```
+aptitude install sudo
+```
+
+4. Configure running sudo without a password.
+See [how to do this](https://askubuntu.com/questions/147241/execute-sudo-without-password).
+
+5. Install system necessities:
+
+```
+sudo aptitude install \
+  firmware-linux-free firmware-brcm80211 firmware-iwlwifi \
+  alsa-firmware-loaders alsa-utils alsa-tools upower mesa-utils
+```
+
+6. Install X.org & friends:
+
+```
+sudo aptitude install \
+  xorg xserver-xorg-core xserver-xorg-input-all xserver-xorg-video-all openbox \
+  openbox-menu obconf feh gmrun menu terminator wpasupplicant firefox-esr \
+  xscreensaver xscreensaver-data xscreensaver-data-extra xscreensaver-gl \
+  xscreensaver-gl-extra git pavucontrol
+```
+
+7. Reboot the system.
