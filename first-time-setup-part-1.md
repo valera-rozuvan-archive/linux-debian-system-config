@@ -37,7 +37,7 @@ sudo aptitude install \
   xorg xserver-xorg-core xserver-xorg-input-all xserver-xorg-video-all openbox \
   openbox-menu obconf feh gmrun menu terminator wpasupplicant firefox-esr \
   xscreensaver xscreensaver-data xscreensaver-data-extra xscreensaver-gl \
-  xscreensaver-gl-extra git pavucontrol
+  xscreensaver-gl-extra git pavucontrol pv
 ```
 
 7. Reboot the system.
