@@ -3,7 +3,7 @@
 1. Install `aptitude`:
 
 ```
-apt-get install aptitude
+apt-get install aptitude apt-transport-https
 ```
 
 2. Do the usual `update && upgrade`:
