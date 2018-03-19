@@ -1,9 +1,13 @@
 # Programs that will run after Openbox has started
 
+# Change order of displays
 (sleep 1s && xrandr --output DP-1 --left-of LVDS-1) &
 
 # Run wallpwaper setup script
 (sleep 2s && /home/valera/.config/openbox/scripts/set_bg) &
 
 # Run xcsreensaver
-(sleep 3 && xscreensaver -no-splash) &
+(sleep 3s && xscreensaver -no-splash) &
+
+# Add additional keyboard map
+(sleep 4s && setxkbmap -layout us,ru -option grp:alt_shift_toggle) &
