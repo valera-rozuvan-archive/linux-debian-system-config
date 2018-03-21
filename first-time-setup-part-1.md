@@ -37,7 +37,13 @@ sudo aptitude install \
   xorg xserver-xorg-core xserver-xorg-input-all xserver-xorg-video-all openbox \
   openbox-menu obconf feh gmrun menu terminator wpasupplicant firefox-esr \
   xscreensaver xscreensaver-data xscreensaver-data-extra xscreensaver-gl \
-  xscreensaver-gl-extra git pavucontrol pv
+  xscreensaver-gl-extra
 ```
 
-7. Reboot the system.
+7. Install some useful utilities:
+
+```
+sudo aptitude install git pv pavucontrol unzip unrar
+```
+
+8. Reboot the system.
