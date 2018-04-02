@@ -43,7 +43,7 @@ sudo aptitude install \
 7. Install some useful utilities:
 
 ```
-sudo aptitude install git pv pavucontrol unzip unrar
+sudo aptitude install git pv pavucontrol zip unzip rar unrar
 ```
 
 8. Reboot the system.
