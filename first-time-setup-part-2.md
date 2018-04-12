@@ -20,3 +20,9 @@ npm install -g tslint typescript
 ```
 
 7. Install [Visual Studio Code](https://code.visualstudio.com/).
+
+8. Install OpenSSH server if you need to access the machine via SSH:
+
+```
+sudo aptitude install openssh-server
+```
