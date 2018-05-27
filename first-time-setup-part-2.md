@@ -30,3 +30,7 @@ sudo aptitude install openssh-server
 9. Prevent laptop going to sleep if lid is closed - see [How can I tell Ubuntu to do nothing when I close my laptop lid?](https://askubuntu.com/questions/15520/how-can-i-tell-ubuntu-to-do-nothing-when-i-close-my-laptop-lid).
 
 10. Increase number of system file watchers - see [Increasing the amount of inotify watchers](https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers).
+
+11. Alias `ls` to always output full information (`ls -a -h -l`). See [How do I create a permanent Bash alias?](https://askubuntu.com/questions/17536/how-do-i-create-a-permanent-bash-alias).
+
+12. Prettier colors for `ls`. See [trapd00r/LS_COLORS](https://github.com/trapd00r/LS_COLORS).
