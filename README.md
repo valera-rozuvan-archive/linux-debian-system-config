@@ -1,6 +1,6 @@
 # ARCHIVED
 
-All future work on scripts (Bash) for system setup will be done over at [https://github.com/valera-rozuvan/shell-script-collection](https://github.com/valera-rozuvan/shell-script-collection).
+All future work on scripts (Bash) for system setup will be done over at [https://github.com/valera-rozuvan/bash-scripts](https://github.com/valera-rozuvan/bash-scripts).
 
 # Linux Debian system config
 
