@@ -1,3 +1,7 @@
+# ARCHIVED
+
+All future work on scripts (Bash) for system setup will be done over at [https://github.com/valera-rozuvan/shell-script-collection](https://github.com/valera-rozuvan/shell-script-collection).
+
 # Linux Debian system config
 
 Configs, bash scripts, etc. which are needed to setup a Debian Linux system from scratch
